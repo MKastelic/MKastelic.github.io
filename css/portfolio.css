@@ -1,5 +1,8 @@
 ﻿body {
     background-color: darkturquoise;
+    margin-left: 50px;
+    font-size: x-large;
+    width: 90%;
 }
 
 body.page-two {
@@ -8,12 +11,18 @@ body.page-two {
     margin-left: 30px;
 }
 
-body.page-four {
+.page-four {
     background-color: gold;
-    margin-left: 30px;
-    font-size: x-large;
+   
 }
 
+.page-five {
+    background-color:skyblue
+}
+
+.page-six {
+    background-color:yellow
+}
 li {
     margin: 10px 0;
 }
