@@ -1,0 +1,32 @@
+﻿body {
+    background-color: darkturquoise;
+    width: 90%;
+}
+
+.top {
+    width: 90%;
+    text-align: justify;
+    font-size: x-large;
+}
+
+.column {
+    float: left;
+    width:35%;
+    font-size: x-large;
+    text-align: justify;
+}
+
+.row {
+    font-size: large;
+}
+
+.row:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.right {
+    float: right;
+    width: 62%;
+}
