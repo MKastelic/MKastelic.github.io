@@ -4,6 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 
+
+ .error {
+   color: #FF0000;
+  }
+
 body,
 html {
   width: 100%;
@@ -57,11 +62,15 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #F05F40 !important;
+  background-color: blue; !important;
 }
 
 .bg-dark {
   background-color: #212529 !important;
+}
+
+.lg-txt {
+  font-size: larger;
 }
 
 .text-faded {
@@ -72,8 +81,22 @@ h6 {
     text-align: justify;
 }
 
+footer {
+  display: block;
+  height: 500px;
+  background-color: lightgrey;
+}
+
 section {
   padding: 8rem 0;
+}
+
+#services {
+  background-color: lightblue;
+}
+
+#portfolio {
+  background-color: orange;
 }
 
 .section-heading {
@@ -239,6 +262,7 @@ header.masthead p {
 
 .service-box {
   max-width: 400px;
+  background-color: lightblue;
 }
 
 .portfolio-box {
