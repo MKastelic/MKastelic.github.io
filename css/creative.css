@@ -39,13 +39,13 @@ h2 .python .purple {
 }
 
 a {
-  color: #F05F40;
+  color: blue;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #f05f40;
+  color: lightskyblue;
 }
 
 h1,
@@ -77,10 +77,12 @@ h6 {
     text-align: justify;
 }
 
-.text-bottom {
-  position: absolute;
-  bottom: 20px;
-  left: 645px;
+.italic {
+  font-style: italic;
+}
+
+.normal {
+  font-style: normal;
 }
 
 footer {
